@@ -1,0 +1,33 @@
+# NOTE: sample output from a made-up 12-movie CSV (not the real movies_real_titles.csv). Replace with your own run before submitting.
+
+Total movies loaded: 12
+
+========== STREAMFLIX MOVIE SORTING ==========
+
+Select sorting parameter:
+1. IMDB Rating
+2. Release Year
+3. Popularity
+
+Enter your choice: 1
+Sorted Movie Data:
+(Highest IMDB Rating First)
+
+-------------------------------------------------------------
+Title		Rating	Year	Popularity
+-------------------------------------------------------------
+Movie K	9.2	2018	9100
+Movie C	9.0	2021	9800
+Movie E	8.7	2019	7600
+Movie I	8.4	2023	8900
+Movie A	8.2	2015	5400
+Movie G	7.8	2017	4300
+Movie D	7.3	2012	3100
+Movie J	7.0	2005	2200
+Movie L	6.8	2020	2700
+Movie B	6.5	2008	1200
+
+---------------------------------------------
+Sorting completed successfully!
+First 10 sorted records displayed above.
+Complete sorted data saved in: movies_sorted_output.csv
