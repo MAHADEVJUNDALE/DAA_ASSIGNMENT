@@ -1,0 +1,39 @@
+Enter number of relief items: 3
+
+Item 1
+Enter item name: Medical Kit
+Enter weight: 10
+Enter utility value: 100
+Is divisible? (1 = Yes, 0 = No): 0
+Enter priority (1 = High, 2 = Medium, 3 = Low): 1
+
+Item 2
+Enter item name: Food
+Enter weight: 20
+Enter utility value: 60
+Is divisible? (1 = Yes, 0 = No): 1
+Enter priority (1 = High, 2 = Medium, 3 = Low): 3
+
+Item 3
+Enter item name: Water
+Enter weight: 15
+Enter utility value: 75
+Is divisible? (1 = Yes, 0 = No): 1
+Enter priority (1 = High, 2 = Medium, 3 = Low): 2
+
+Enter knapsack capacity: 25
+
+Sorted Items:
+Item                 Weight     Value      Priority   Value/Weight Type
+Medical Kit          10.00      100.00     1          10.00        Indivisible
+Water                15.00      75.00      2          5.00         Divisible
+Food                 20.00      60.00      3          3.00         Divisible
+
+Items Selected for Transport:
+- Medical Kit: 10.00 kg, Utility = 100.00, Priority = 1, Type = Indivisible
+- Water: 15.00 kg, Utility = 75.00, Priority = 2, Type = Divisible
+
+========== FINAL REPORT ==========
+Total weight carried: 25.00 kg
+Total utility value carried: 175.00 units
+Remaining capacity: 0.00 kg
